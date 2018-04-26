@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="TGRA webpage">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <div id="container">
+      <div class="content">
+        <div class="welcome">
+          <h2>Welcome to l33t translator!</h2>
+        </div>
+        <h3>Your text:<br></h3>
+        <textarea id="userInput" placeholder="Please enter a text you want to translate."></textarea><br>
+        <input type="button" id="buttonTranslate" value="Translate" onclick="leetSpeakTranslator()">
+        <input type="button" id="buttonReset" value="Reset" onclick="reset()">
+        <input type="button" id="buttonTryIt" value="Try it!" onclick="tryIt()">
+        <h3>L33t translation:<br></h3>
+        <textarea id="translation"></textarea>
+      </div>
+    </div>
+    
+  </body>
+</html>
